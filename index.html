@@ -1,13 +1,37 @@
 <!doctype html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  </body>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body class="inter">
+    <!-- header section start -->
+    <header class="max-w-[1600px] mx-auto bg-[#412567] sticky top-0 z-10">
+        <nav
+            class=" max-w-7xl bg-[#412567] text-white mx-auto flex items-center justify-between md:max-w-7xl px-4 lg:px-0 py-4">
+            <img class="h-6 md:h-8 lg:10 cursor-pointer" src="./assets/TechWave.png" alt="">
+            <ul class="hidden md:flex gap-8 ">
+                <li class="hover:text-[#00FF88]"><a href="#">About</a></li>
+                <li class="hover:text-[#00FF88]"><a href="#">Episodes</a></li>
+                <li class="hover:text-[#00FF88]"><a href="#">Host</a></li>
+            </ul>
+
+            <button
+                class="hidden md:flex px-4 py-3 gap-1 bg-linear-to-r from-yellow-500 via-pink-500 to-indigo-500 hover:bg-linear-to-l  rounded-full cursor-pointer border-2 border-pink-600 ">Subscribe
+                <img class="" src="./assets/ArrowRight.png" alt=""></button>
+            <img class="md:hidden cursor-pointer w-5" src="./assets/hamburger-menu.png" alt="">
+        </nav>
+    </header>
+    
+    <!-- header section end -->
+    <hr class="max-w-[1600px] mx-auto bg-gray-500 h-1">
+
+    <!-- hero section start -->
+
+</body>
+
 </html>
